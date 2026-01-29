@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopza Cart | Premium Shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo-container">
+            <img src="logo.jpg" alt="Shopza Cart Logo" class="logo-img">
+            <span class="brand-name">Shopza Cart</span>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#products">Collection</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="checkout.html" class="cart-icon" style="text-decoration: none;">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </a>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Upgrade Your Home</h1>
+            <p>Experience the future of living with our premium collection of smart home appliances.</p>
+            <a href="#products" class="btn-primary">Shop Now</a>
+        </section>
+
+        <section id="products" class="products-section">
+            <h2 class="section-title">Home Essentials</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                        alt="Smart Coffee Maker" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Barista Pro Smart Brewer</h3>
+                        <span class="product-price">₹24,999</span>
+                        <button class="btn-add-cart" data-name="Barista Pro Smart Brewer" data-price="24999">Add to
+                            Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                        alt="Robotic Vacuum" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">AutoClean Bot X1</h3>
+                        <span class="product-price">₹18,999</span>
+                        <button class="btn-add-cart" data-name="AutoClean Bot X1" data-price="18999">Add to
+                            Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1570222094114-28a9d88a2b64?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                        alt="Premium Blender" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Vortex Master Blender</h3>
+                        <span class="product-price">₹8,499</span>
+                        <button class="btn-add-cart" data-name="Vortex Master Blender" data-price="8499">Add to
+                            Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1571175443880-49e1d58b794a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                        alt="Smart Refrigerator" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">FrostGuard Smart Fridge</h3>
+                        <span class="product-price">₹64,999</span>
+                        <button class="btn-add-cart" data-name="FrostGuard Smart Fridge" data-price="64999">Add to
+                            Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                        alt="Air Purifier" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">PureAir Max Purifier</h3>
+                        <span class="product-price">₹12,999</span>
+                        <button class="btn-add-cart" data-name="PureAir Max Purifier" data-price="12999">Add to
+                            Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1581093583449-ed252134453b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                        alt="Smart Microwave" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">ChefWave Smart Oven</h3>
+                        <span class="product-price">₹15,499</span>
+                        <button class="btn-add-cart" data-name="ChefWave Smart Oven" data-price="15499">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2 class="section-title">Why Choose Shopza?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-crown"></i>
+                    <h3>Premium Quality</h3>
+                    <p>Curated selection of top-tier smart home appliances.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h3>Fast Shipping</h3>
+                    <p>Free express delivery across India on all orders.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Secure Warranty</h3>
+                    <p>2-year comprehensive warranty on every product.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> support@shopzacart.in</p>
+                    <p><i class="fas fa-phone"></i> +91 1800 123 4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123, Tech Park, Bangalore, India</p>
+                </div>
+                <form class="contact-form">
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Message" rows="3" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Shopza Cart. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
